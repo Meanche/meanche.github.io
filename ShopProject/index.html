@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ShopProject</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Start Header-->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <nav>
+                        <ul class="menu row">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Products</a>
+                                <ul class="dropmenu">
+                                    <li><a href="#">Lorem ipsum dolor</a></li>
+                                    <li><a href="#">Sit amet</a></li>
+                                    <li><a href="#">Consectetur adipisicing</a></li>
+                                    <li><a href="#">Tempor incididunt</a></li>
+                                    <li><a href="#">Dolore magna aliqua</a></li>
+                                    <li><a href="#">Ut enim ad minim veniam</a></li>
+                                    <li><a href="#">Quis notrud</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Payment</a></li>
+                            <li><a href="#">Shipping</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+
+                        <div class="col-md-2">
+
+                            <form action="">
+                                <input type="search" placeholder="search" name="search" class="search">
+                                <input type="submit" value="">
+                            </form>
+                        </div>
+
+                        <div class="col-md-1">
+                            <div id="products-count">
+                                0
+                            </div>
+                            <a class="cart" href=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!--End Header-->
+    <main class="row">
+        <!--Start Slider-->
+        <div class="slider"></div>
+        <!--End Slider-->
+        <!--Start Main Page-->
+        <div class="container">
+            <!--Start Filter-->
+            <div class="filter col-md-3">
+                <h3>Device Type</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="laptop" id="laptop">
+                        <label for="laptop" class="checkbox"><p>Laptop</p> </label>
+                    </li>
+                    <li><input type="checkbox" id="tablet" name="tablet">
+                        <label class="checkbox" for="tablet"><p>Tablet</p> </label>
+                    </li>
+                </ul>
+                <h3>Color</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="Blackcolor" name="Blackcolor">
+                        <label class="checkbox" for="Blackcolor"><p>Black</p></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Redcolor" name="Redcolor">
+                        <label class="checkbox" for="Redcolor"><p>Red</p></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Greencolor" name="Greencolor">
+                        <label class="checkbox" for="Greencolor"><p>Green</p></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Bluecolor" name="Bluecolor">
+                        <label class="checkbox" for="Bluecolor"><p>Blue</p></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Orangecolor" name="Orangecolor">
+                        <label class="checkbox" for="Orangecolor"><p>Orange</p></label>
+                    </li>
+                </ul>
+                <h3>Ram</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="ram1gb" name="ram1gb">
+                        <label class="checkbox" for="ram1gb"><p>1Gb</p></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ram2gb" name="ram2gb">
+                        <label class="checkbox" for="ram2gb"><p>2gb</p></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ram4gb" name="ram4gb">
+                        <label class="checkbox" for="ram4gb"><p>4gb</p></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ram6gb" name="ram6gb">
+                        <label class="checkbox" for="ram6gb"><p>6gb</p></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ram8gb" name="ram8gb">
+                        <label class="checkbox" for="ram8gb"><p>8gb</p></label>
+                    </li>
+                </ul>
+                <div class="showmore-filter"> <a href="#">Show more options ...</a> </div>
+                <button type="submit" class="buttonsubmit">Submit</button>
+
+            </div>
+            <!--End Filter-->
+            <!--Start Products part-->
+            <div class="products col-md-7 ">
+                <div class="row">
+                    <div>
+                        <p class="navig"><a href="#">Home page > </a><a href="#">Products > </a><a href="">Laptops and Tablets</a></p>
+                    </div>
+                    <div>
+
+
+                        <div>
+                            <div class="col-md-6">
+                                <div>
+                                    <h2>Laptops and Tablets</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 ">
+                                <div class="sortdiv">
+                                    <ul class="sort">
+                                        <li><a href="#">sort by price</a>
+                                            <ul class="sortmenu">
+                                                <li><a href="#">sort by name</a></li>
+                                                <li><a href="#">sort by date</a></li>
+                                                <li><a href="#">sort by popularity</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-">
+                            <div class="col-md-30 row">
+                                <div class="bgimage">
+                                    <img src="images/dev11.png" alt="#1 Device Name">
+                                    <div class="fullphoto">
+                                        <a href="#"></a>
+                                    </div>
+                                    <div class="like">
+                                        <a href="#"></a>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h3 class="dev-name">#1 Device Name</h3>
+                                    <p class="dev-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Type:</h4>
+                                        <p class="item-type-desc col-">Laptop</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Screen size:</h4>
+                                        <p class="item-type-desc col-">7 inches</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">RAM:</h4>
+                                        <p class="item-type-desc col-">1GB</p>
+                                    </div>
+                                </div>
+                                <p class="price">$599
+                                    <span class="price-cent">25</s>
+                                </p>
+                                <button class="moredetails"><h4>More details</h4></button>
+                                <button class="addcart add-to-cart">Add to cart</button>
+                            </div>
+                            <div class="col-md-30 row">
+                                <div class="bgimage">
+                                    <img src="images/dev12.png" alt="#1 Device Name">
+                                    <div class="fullphoto">
+                                        <a href="#"></a>
+                                    </div>
+                                    <div class="like">
+                                        <a href="#"></a>
+                                    </div>
+                                </div>
+                                
+                                    <div> 
+                                        <h3 class="dev-name">#2 Device Name</h3>
+                                        <p class="dev-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        <div class="row">
+                                        <h4 class="item-type col-">Type:</h4>
+                                        <p class="item-type-desc col-">Laptop</p>
+                                        </div>
+                                        <div class="row">
+                                         <h4 class="item-type col-">Screen size:</h4>
+                                            <p class="item-type-desc col-">7 inches</p>
+                                        </div>
+                                        <div class="row">
+                                         <h4 class="item-type col-">RAM:</h4>
+                                            <p class="item-type-desc col-">1GB</p>
+                                        </div> 
+                                     </div> 
+                
+                                    
+                                    <p class="price">$1250
+                                    <span class="price-cent">99</span>
+                                </p>
+                                <button class="moredetails"><h4>More details</h4></button>
+                                <button class="addcart add-to-cart">Add to cart</button>
+                            </div>
+                            <div class="col-md-30 row">
+                                <div class="bgimage">
+                                    <img src="images/dev13.png" alt="#1 Device Name">
+                                    <div class="fullphoto">
+                                        <a href="#"></a>
+                                    </div>
+                                    <div class="like">
+                                        <a href="#"></a>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h3 class="dev-name">#3 Device Name</h3>
+                                    <p class="dev-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Type:</h4>
+                                        <p class="item-type-desc col-">Laptop</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Screen size:</h4>
+                                        <p class="item-type-desc col-">7 inches</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">RAM:</h4>
+                                        <p class="item-type-desc col-">1GB</p>
+                                    </div>
+                                </div>
+                                <p class="price">$399
+                                    <span class="price-cent">50</span>
+                                </p>
+                                <button class="moredetails"><h4>More details</h4></button>
+                                <button class="addcart add-to-cart">Add to cart</button>
+                            </div>
+
+                        </div>
+                        <div class="col-">
+                            <div class="col-md-30 row">
+                                <div class="bgimage">
+                                    <img src="images/dev21.png" alt="#1 Device Name">
+                                    <div class="fullphoto">
+                                        <a href="#"></a>
+                                    </div>
+                                    <div class="like">
+                                        <a href="#"></a>
+                                    </div>
+
+                                </div>
+
+                                <div>
+                                    <h3 class="dev-name">#1 Device Name</h3>
+                                    <p class="dev-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Type:</h4>
+                                        <p class="item-type-desc col-">Laptop</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Screen size:</h4>
+                                        <p class="item-type-desc col-">7 inches</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">RAM:</h4>
+                                        <p class="item-type-desc col-">1GB</p>
+                                    </div>
+                                </div>
+                                <p class="price">$599
+                                    <span class="price-cent">25</s>
+                                    </p>
+                                    <button class="moredetails"><h4>More details</h4></button>
+                                    <button class="addcart add-to-cart">Add to cart</button>
+                                </div>
+                                <div class="col-md-30 row">
+                                    <div class="bgimage">
+                                        <img src="images/dev22.png" alt="#1 Device Name">
+                                        <div class="fullphoto">
+                                            <a href="#"></a>
+                                        </div>
+                                         <div class="like">
+                                            <a href="#"></a>
+                                         </div>
+                                    </div>
+                                    
+                                    <div>
+                                    <h3 class="dev-name">#2 Device Name</h3>
+                                    <p class="dev-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Type:</h4>
+                                        <p class="item-type-desc col-">Laptop</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Screen size:</h4>
+                                        <p class="item-type-desc col-">7 inches</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">RAM:</h4>
+                                        <p class="item-type-desc col-">1GB</p>
+                                    </div>
+                                    </div>
+                                    <p class="price">$1250
+                                        <span class="price-cent">99</span>
+                                </p>
+                                <button class="moredetails"><h4>More details</h4></button>
+                                <button class="addcart add-to-cart">Add to cart</button>
+                            </div>
+                            <div class="col-md-30 row">
+                                <div class="bgimage">
+                                    <img src="images/dev23.png" alt="#1 Device Name">
+                                    <div class="fullphoto">
+                                        <a href="#"></a>
+                                    </div>
+                                    <div class="like">
+                                        <a href="#"></a>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h3 class="dev-name">#3 Device Name</h3>
+                                    <p class="dev-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Type:</h4>
+                                        <p class="item-type-desc col-">Laptop</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Screen size:</h4>
+                                        <p class="item-type-desc col-">7 inches</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">RAM:</h4>
+                                        <p class="item-type-desc col-">1GB</p>
+                                    </div>
+                                </div>
+                                <p class="price">$399
+                                    <span class="price-cent">50</span>
+                                </p>
+                                <button class="moredetails"><h4>More details</h4></button>
+                                <button class="addcart add-to-cart">Add to cart</button>
+                            </div>
+
+                        </div>
+                        <div class="col-">
+                            <div class="col-md-30 row">
+                                <div class="bgimage">
+                                    <img src="images/dev11.png" alt="#1 Device Name">
+
+                                    <div class="fullphoto">
+                                        <a href="#"></a>
+                                    </div>
+                                    <div class="like">
+                                        <a href="#"></a>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h3 class="dev-name">#1 Device Name</h3>
+                                    <p class="dev-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Type:</h4>
+                                        <p class="item-type-desc col-">Laptop</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Screen size:</h4>
+                                        <p class="item-type-desc col-">7 inches</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">RAM:</h4>
+                                        <p class="item-type-desc col-">1GB</p>
+                                    </div>
+                                </div>
+                                <p class="price">$599
+                                    <span class="price-cent">25</s>
+                                    </p>
+                                    <button class="moredetails"><h4>More details</h4></button>
+                                    <button class="addcart add-to-cart">Add to cart</button>
+                                </div>
+                                <div class="col-md-30 row">
+                                    <div class="bgimage">
+                                        <img src="images/dev21.png" alt="#1 Device Name">
+
+                                        <div class="fullphoto">
+                                            <a href="#"></a>
+                                         </div>
+                                         <div class="like">
+                                            <a href="#"></a>
+                                         </div>
+                                    </div>
+                                    
+                                    <div>
+                                    <h3 class="dev-name">#2 Device Name</h3>
+                                    <p class="dev-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Type:</h4>
+                                        <p class="item-type-desc col-">Laptop</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Screen size:</h4>
+                                        <p class="item-type-desc col-">7 inches</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">RAM:</h4>
+                                        <p class="item-type-desc col-">1GB</p>
+                                    </div>
+                                    </div>
+                                    <p class="price">$1250
+                                        <span class="price-cent">99</span>
+                                </p>
+                                <button class="moredetails"><h4>More details</h4></button>
+                                <button class="addcart add-to-cart">Add to cart</button>
+                            </div>
+                            <div class="col-md-30 row">
+                                <div class="bgimage">
+                                    <img src="images/dev31.png" alt="#1 Device Name">
+                                    <div class="fullphoto">
+                                        <a href="#"></a>
+                                    </div>
+                                    <div class="like">
+                                        <a href="#"></a>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h3 class="dev-name">#3 Device Name</h3>
+                                    <p class="dev-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Type:</h4>
+                                        <p class="item-type-desc col-">Laptop</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">Screen size:</h4>
+                                        <p class="item-type-desc col-">7 inches</p>
+                                    </div>
+                                    <div class="row">
+                                        <h4 class="item-type col-">RAM:</h4>
+                                        <p class="item-type-desc col-">1GB</p>
+                                    </div>
+                                </div>
+                                <p class="price">$399
+                                    <span class="price-cent">50</span>
+                                </p>
+                                <button class="moredetails"><h4>More details</h4></button>
+                                <button class="addcart add-to-cart">Add to cart</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="loadmoreprod">Load more...</div>
+            </div>
+
+            <!--End Products-->
+        </div>
+        <!--End Main Page-->
+    </main>
+    <!--Start Footer-->
+    <footer class="footer">
+        <div>
+            © Copyright 2017
+        </div>
+
+    </footer>
+    <!--End Footer-->
+    <script src="app.js"></script>
+</body>
+
+</html>
